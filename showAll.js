@@ -1,6 +1,7 @@
 const getBeers = require('./data')
 
 function main() {
+    
 }
 
 main()
