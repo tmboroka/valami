@@ -5,7 +5,7 @@ function main(type) {
     const beers = getBeers();
     return beers.filter((beer) => beer.type.includes(type))
 }
-console.log(main('Ale'));
+console.log(main(process.argv[2]));
 
 
 // Usage: node filterByType.js <type>
